@@ -1,0 +1,198 @@
+ .top-content{
+     height: 625px;
+     background-image: url("../img/flower.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+ }
+ .my-titled{
+     position: absolute;
+     top: 200px;
+ }
+ .my-titled h1{
+     font-size: 50px;
+     font-weight: bold;
+ }
+ .container-box{
+     margin: 0px 30px;
+ }
+ .wiged-invitation{
+    height: 500px;
+ }
+.wiged-title, .wiged-message{
+    margin: 20px auto;
+    text-align: center;
+    width: 100%;
+}
+ .wiged-title h1{ 
+    font-weight: bold;
+ }
+ .wiged-message{
+     width: 90%;
+     font-size: 20px;
+ }
+ .fitur-invitation{
+    height: 755px;
+    position: relative;
+    background-image: url("../img/fitur.jpg");
+    background-attachment: fixed; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ .element-fitur-title{
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin: 30px 0px;
+ }
+.box-element-fitur{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+ .box-fitur{
+     width: 300px;
+     height: 100px;
+     background-color: white;
+     margin: 20px;
+     border-radius: 10px;
+     box-shadow: 10px 10px 20px 10px black;
+     display: flex;
+     box-sizing: border-box;
+ }
+ .box-icon-fitur{
+     width: 60px;
+     height: 60px;
+     background-color: #82E0AA;
+     border-radius: 10px;
+     margin: 15px 11px;
+ }
+ .box-icon-fitur img{
+     margin: 10px;
+ }
+ .title-box-fitur{
+     color: black;
+     font-weight: bold;
+     font-size: 15px;
+ }
+ .title-box-fitur p{
+    line-height: 100px;
+ }
+
+ .element-katalog{
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+     height: 500px;
+ }
+ .title-element-katalog{
+     width: 45%;
+     margin-top: 150px;
+     padding: 40px;
+     color: #1E8449;
+ }
+ .title-element-katalog .card-title{
+     font-size: 35px;
+     font-weight: bold;
+ }
+ .title-element-katalog .card-text{
+     font-size: 18px;
+ }
+ .carousel-element-katalog{
+    width: 55%;
+    margin-top: 100px;
+ }
+ .message{
+     background-color: #2ECC71;
+     height: 300px;
+     text-align: center;
+    padding-top: 60px;
+ }
+ .footer{
+     background-color: black;
+     color: white;
+     height: 50px;
+     text-align: center;
+ }
+ .footer p{
+     line-height: 50px;
+     font-weight: bold;
+ }
+
+ @media screen and (max-width: 768px) {
+    .wiged-message{
+        width: 100%;
+        font-size: 20px;
+    }
+    .fitur-invitation{
+        height: 1900px;
+     }
+     .box-fitur{
+        width: 350px;
+        margin: 20px 10px;
+        border-radius: 10px;
+     }
+     /* View vertikal */
+    .view-vertikal{
+        flex-direction: column;
+        width: 137px;
+        height: 200px;
+    }
+    .box-icon-fitur.view-vertikal{
+        width: 90px;
+        height: 90px;
+        box-sizing: border-box;
+    }
+    .box-icon-fitur.view-vertikal img{
+        width: 50px;
+        margin: 20px;
+    }
+
+    /* View Horizontal */
+    .view-horizontal{
+        width: 300px;
+        height: 130px;
+    }
+    .box-icon-fitur.view-horizontal{
+        width: 90px;
+        height: 90px;
+        box-sizing: border-box;
+    }
+    .box-icon-fitur.view-horizontal img{
+        width: 50px;
+        margin: 20px;
+    }
+    .title-box-fitur.view-horizontal p{
+        padding-top: 50px;
+        text-align: left;
+     }
+
+    .title-box-fitur p{
+        line-height: normal;
+     }
+
+     .element-katalog{
+        flex-direction: column;
+        width: 100%;
+    }
+    .title-element-katalog{
+        width: 100%;
+        padding: 0px;
+        margin-top: 0px;
+    }
+    .title-element-katalog .card-title{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .title-element-katalog .card-text{
+        font-size: 18px;
+    }
+    .carousel-element-katalog{
+       width: 100%;
+       margin-top: 30px;
+    }
+ }
