@@ -3,8 +3,9 @@
      margin: 0px;
      width: 100%;
  }
-.top-content{
+ .top-content{
      height: 625px;
+     width: 100%;
      background-image: url("../img/flower.jpg");
      background-position: center;
      background-repeat: no-repeat;
@@ -68,6 +69,7 @@
      box-shadow: 10px 10px 20px 10px black;
      display: flex;
      box-sizing: border-box;
+     transition: 1s;
  }
  .box-icon-fitur{
      width: 60px;
@@ -188,7 +190,7 @@
     .title-element-katalog{
         width: 100%;
         padding: 0px;
-        margin: 30px 0px;
+        margin-top: 30px;
     }
     .title-element-katalog .card-title{
         font-size: 30px;
