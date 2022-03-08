@@ -1,4 +1,9 @@
- .top-content{
+ body{
+     padding: 0px;
+     margin: 0px;
+     width: 100%;
+ }
+.top-content{
      height: 625px;
      background-image: url("../img/flower.jpg");
      background-position: center;
